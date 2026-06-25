@@ -36,29 +36,30 @@
         <br>
         <form action="https://web3forms.com" method="POST">
             <input type="hidden" name="access_key" value="d15d01bc-2435-4b66-b8d9-bdee8bb4c3fc">
+            <input type="hidden" name="redirect" value="https://visualtailstudios.github.io">
             <div>
                 <label for="fname">First Name: </label>
-                <input type="text" id="fname" name="First Name">
+                <input type="text" id="fname" name="First Name" required>
             </div>
             <div>
                 <label for="lname">Last Name: </label>
-                <input type="text" id="lname" name="Last Name">
+                <input type="text" id="lname" name="Last Name" required>
             </div>
             <br>
             <div>
                 <label for="email">Email: </label>
-                <input type="email" id="email" name="Email">
+                <input type="email" id="email" name="Email" required>
             </div>
             <div>
                 <label for="number">Number: </label>
-                <input type="tel" id="number" name="Phone Number">
+                <input type="tel" id="number" name="Phone Number" required>
             </div>
             <div>
                 <div>
                     <label for="schedule">Schedule a meeting: </label>
                 </div>
                 <div>
-                    <input type="text" id="schedule" name="Meeting Date">
+                    <input type="text" id="schedule" name="Meeting Date" required>
                 </div>
             </div>
             <br>
