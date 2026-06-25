@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>Visual Tail | Software Company</title>
-        <meta name = "idk" content="software">
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -24,10 +23,47 @@
                     <td>Closed</td>
                     <td>8AM to 9PM</td>
                     <td>8AM to 9PM</td>
-                    
+                    <td>2:35PM to 9PM</td>
+                    <td>8AM to 2:35PM</td>
+                    <td>8AM to 2:35PM</td>
+                    <td>Varies by week</td>
                 </tr>
             </table>
         </div>
-        
+
+        <!--Contact form-->
+        <br>
+        <form action="sendContact.js" method="post">
+            <div>
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div>
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname" name="lname">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="number">Number: </label>
+                <input type="number" id="number" name="number">
+            </div>
+            <div>
+                <div>
+                    <label for="schedule">Schedule a meeting: </label>
+                </div>
+                <div>
+                    <input type="datetime" id="schedule" name="schedule">
+                </div>
+            </div>
+            <br>
+            <div>
+                <input type="reset">
+                <input type="submit">
+            </div>
+        </form>
     </body>
 </html>
