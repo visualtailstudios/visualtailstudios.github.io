@@ -14,6 +14,14 @@ h1{
     font-family: "consolas", "courier-new";
     color: #00FF73;
     font-weight: bold;
+
+    border-style:outset;
+    border-width:5px;
+    border-color:rgb(42, 253, 158);
+    border-radius:10px;
+    padding:5px;
+
+    background-color: aquamarine;
 }
 #fname{
     color:white;
