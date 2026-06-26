@@ -27,24 +27,6 @@ h1{
     border-radius:10px;
     padding:5px;
 }
-#fname{
+.contactText{
     color:white;
-}
-#lname{
-    color:white;
-}
-#email{
-    color:white;
-}
-#number{
-    color:white;
-}
-#fname{
-    color:white;
-}
-#schedule{
-    color:white;
-}
-#scheduleType{
-    padding:5px;
 }
