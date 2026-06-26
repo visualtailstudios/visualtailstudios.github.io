@@ -1,9 +1,35 @@
 p{
-    background-color: rgb(212, 231, 248);
+    color: rgb(212, 231, 248);
 }
 #contactForm{
-    background-color: rgb(191, 225, 255);
+    background-color: rgb(198, 224, 246);
 }
 .numImp{
     color:aqua;
+}
+#divTxt{
+    color:white;
+}
+h1{
+    font-family: "consolas", "courier-new";
+    color: #00FF73;
+    font-weight: bold;
+}
+#fname{
+    color:white;
+}
+#lname{
+    color:white;
+}
+#email{
+    color:white;
+}
+#number{
+    color:white;
+}
+#fname{
+    color:white;
+}
+#schedule{
+    color:white;
 }
