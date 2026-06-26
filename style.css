@@ -27,3 +27,8 @@ h1{
 label{
     color:white;
 }
+#scheduleType{
+    background-color: black;
+    border-color: rgb(89, 89, 89);
+    color:#00ff1a;
+}
