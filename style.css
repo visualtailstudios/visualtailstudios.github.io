@@ -13,7 +13,7 @@ p{
     color:rgb(18, 251, 37);
     padding:2px;
 }
-h1{
+#titleText{
     font-family: "consolas", "courier-new";
     color: #00ff1a;
     font-weight: bold;
@@ -31,4 +31,15 @@ label{
     background-color: black;
     border-color: rgb(89, 89, 89);
     color:#00ff1a;
+}
+ul{
+    color:white;
+}
+li{
+    color:#00ff1a;
+}
+#projects{
+    font-family: "consolas", "courier-new";
+    color: #00ff1a;
+    font-weight: bold;
 }
