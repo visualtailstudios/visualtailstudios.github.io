@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- https://forms.gle/91bWSPJ6WFi3gVxq5 -->
 <html>
     <head>
         <title>Visual Tail | Software Company</title>
@@ -57,7 +56,7 @@
             <div>
                 <p>My core usages include:</p>
 
-                <ul style="list-style-type: none;">
+                <ul id="usageList">
                     <li>> C# Applications / Services</li>
                     <li>> HTML, CSS, Javascript Elements</li>
                     <li>> Python Applications / Services</li>
@@ -68,12 +67,46 @@
                     <li>> Teaching using my Courses</li>
                 </ul>
                 <p>My modes of compensation include:</p>
-                <ul style="list-style-type: none;">
+                <ul id="compensationList">
                     <li>> Free advertisement of my services</li>
                     <li>> One time commision fee</li>
                     <li>> Percentage of revenue from my services</li>
                 </ul>
                 <p>Other options can be discussed.</p>
+            </div>
+        </div>
+
+        <!--Course / Repos directories-->
+        <div>
+            <h2>Courses / Repositories</h2>
+            <div>
+                <a href="courses.html">
+                    My Courses
+                </a>
+                <br>
+                <a href="repo.html">
+                    My Repositories
+                </a>
+            </div>
+            <h4>About my Courses</h4>
+            <div>
+                My courses are always updating and constantly
+                being made better. And with new lessons are 
+                posted every single Saturday. If you see any
+                courses you would like posted that I do not
+                have up, use my contact form and I'll get back
+                to you as soon as I am able. 
+            </div>
+            <h4>About my Repositories</h4>
+            <div>
+                While you can always go to my GitHub page,
+                any public repositories I push will still
+                be uploaded with pictures of usages and
+                reviews for your consideration. Repositories
+                which are made private are under the 
+                discretion of the clients who requested it.
+                I will not share source code or any assets
+                unless given permission to advertise the repo. 
             </div>
         </div>
 
@@ -108,6 +141,10 @@
                 <div>
                     <input type="text" id="schedule" name="Meeting Date" required placeholder="Monday at 8am">
                 </div>
+            </div>
+            <div>
+                <label for="message">Message: </label>
+                <input type="text" id="message" name="Message" required placeholder="I need a service built.">
             </div>
             <br>
             <div>
