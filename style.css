@@ -4,3 +4,33 @@
 #compensationList{
     list-style-type: none;
 }
+
+#CourseTitle{
+    border: 10px;
+    border-style: solid;
+    border-color: azure;
+}
+#Description{
+
+}
+#FormTitle{
+
+}
+#Name{
+
+}
+#Number{
+
+}
+#Email{
+
+}
+#PricingLabel{
+
+}
+#OptionPrice{
+
+}
+#Value1, #Value2, #Value3{
+
+}
