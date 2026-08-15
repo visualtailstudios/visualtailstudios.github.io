@@ -1,3 +1,8 @@
+#VERIFY{
+    display: none;
+}
+
+
 #usageList{
     list-style-type: none;
 }
@@ -6,9 +11,10 @@
 }
 
 #CourseTitle{
-    border: 10px;
+    border: 4px;
     border-style: solid;
-    border-color: azure;
+    border-color: white;
+    border-left-style: ridge;
 }
 #Description{
 
@@ -32,5 +38,8 @@
 
 }
 #Value1, #Value2, #Value3{
+
+}
+#Reviews{
 
 }
