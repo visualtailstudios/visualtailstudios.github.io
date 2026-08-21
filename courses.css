@@ -1,0 +1,315 @@
+/* =========================================
+   GLOBAL RESET & EFFICIENCY
+   ========================================= */
+   body, input, select, button, a, th, td, p, h1, h2, h3, h4, div, span {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+#VERIFY {
+    display: none !important;
+}
+
+#usageList, 
+#compensationList {
+    list-style-type: none !important;
+    padding: 0 !important;
+}
+
+/* =========================================
+   LAYOUT & BACKGROUND
+   ========================================= */
+body {
+    background-color: #0d1117 !important;
+    background-image: 
+        linear-gradient(rgba(156, 171, 193, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(156, 171, 193, 0.05) 1px, transparent 1px) !important;
+    background-size: 20px 20px !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 16px !important;
+    color: #e6edf3 !important;
+}
+
+#titleDiv, 
+hr, 
+a[href="index.html"] {
+    flex-basis: 100% !important;
+    width: 100% !important;
+    clear: both !important;
+}
+
+#titleDiv {
+    background-color: transparent !important;
+    padding: 10px !important; 
+    box-sizing: border-box !important;
+}
+
+#PageTitle {
+    border: 8px ridge !important; 
+    border-top-color: rgb(210, 40, 180) !important; 
+    border-bottom-color: rgb(40, 180, 210) !important; 
+    border-left-color: rgb(150, 40, 210) !important; 
+    border-right-color: rgb(40, 80, 210) !important; 
+    border-radius: 16px !important; 
+    font-size: 24px !important;
+    font-weight: bold !important;     
+    color: #ffffff !important; 
+    letter-spacing: -0.5px !important;
+    padding: 12px 25px !important; 
+    width: fit-content !important;
+    margin: 10px auto !important;
+    text-align: center !important;
+    background-color: rgba(30, 35, 45, 0.95) !important; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+section {
+    background-color: rgba(30, 35, 45, 0.9) !important;
+    border: 4px ridge rgb(150, 40, 210) !important;
+    border-radius: 14px !important;
+    padding: 20px !important; 
+    box-sizing: border-box !important;
+    flex-basis: calc(50% - 10px) !important; 
+    width: calc(50% - 10px) !important;     
+    max-width: 48% !important;
+    display: inline-block !important;           
+    height: fit-content !important;          
+    margin: 10px 0 !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+#CourseTitle {
+    border: 6px ridge !important;
+    border-top-color: rgb(210, 40, 180) !important;
+    border-bottom-color: rgb(40, 180, 210) !important;
+    border-left-color: rgb(150, 40, 210) !important;
+    border-right-color: rgb(40, 80, 210) !important;
+    border-radius: 20px !important; 
+    font-size: 18px !important;
+    font-weight: bold !important;     
+    color: #ffffff !important;
+    padding: 8px 20px !important; 
+    width: fit-content !important;
+    margin: 10px auto !important;
+    text-align: center !important;
+    background-color: rgba(30, 35, 45, 0.95) !important; 
+}
+
+#Description {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    color: #e6edf3 !important; 
+    text-align: center !important;
+    width: 90% !important;  
+    max-width: 450px !important;
+    margin: 0 auto !important;
+    font-weight: bold !important;
+    background-color: rgba(20, 24, 33, 0.8) !important;
+    border-left: 4px solid rgb(210, 40, 180) !important;
+    border-right: 4px solid rgb(40, 180, 210) !important;
+    border-top: 4px solid rgb(150, 40, 210) !important;
+    border-bottom: 4px solid rgb(40, 80, 210) !important;
+    border-radius: 8px !important;
+    padding: 12px 15px !important;
+}
+
+form {
+    max-width: 480px !important;
+    margin: 20px auto !important;
+    padding: 20px !important; 
+    background-color: rgba(30, 35, 45, 0.9) !important; 
+    border: 4px ridge rgb(150, 40, 210) !important;
+    border-radius: 14px !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+#FormTitle {
+    border: 6px ridge !important;
+    border-top-color: rgb(210, 40, 180) !important;
+    border-bottom-color: rgb(40, 180, 210) !important;
+    border-left-color: rgb(150, 40, 210) !important;
+    border-right-color: rgb(40, 80, 210) !important;
+    border-radius: 12px !important; 
+    font-size: 16px !important;
+    font-weight: bold !important;     
+    color: #ffffff !important;
+    padding: 6px 15px !important; 
+    width: fit-content !important;
+    margin: 10px auto 15px auto !important;
+    text-align: center !important;
+    background-color: rgba(30, 35, 45, 0.95) !important; 
+}
+
+form div {
+    margin-bottom: 12px !important;
+}
+
+label, #PricingLabel {
+    display: block !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    color: #7df9ff !important; 
+    margin-bottom: 4px !important;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    font-size: 12px !important;
+    width: 100% !important;
+    padding: 8px 10px !important; 
+    box-sizing: border-box !important;
+    background-color: rgba(240, 245, 255, 0.95) !important;
+    border: 3px ridge rgb(156, 171, 193) !important;
+    border-radius: 6px !important;
+    color: #1a1a1a !important;
+}
+
+select {
+    font-size: 12px !important;
+    width: 100% !important;
+    padding: 8px 10px !important; 
+    box-sizing: border-box !important;
+    background-color: rgba(30, 35, 45, 0.95) !important;
+    border: 3px ridge rgb(156, 171, 193) !important;
+    border-radius: 6px !important;
+    color: #7df9ff !important; 
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+select:focus {
+    outline: none !important;
+    border-color: rgb(210, 40, 180) !important;
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
+}
+
+/* =========================================
+   BUTTONS & LINKS
+   ========================================= */
+input[type="submit"],
+input[type="reset"],
+a[href="index.html"],
+#customFORM {
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 8px 16px !important;
+    margin: 12px auto !important;
+    display: block !important;
+    width: fit-content !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    transition: all 0.1s ease !important;
+    text-align: center !important;
+}
+
+input[type="submit"] {
+    border: 3px ridge rgb(40, 180, 210) !important;
+    background-color: rgba(40, 180, 210, 0.9) !important;
+    color: #1a1a1a !important;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(30, 160, 190) !important;
+    transform: scale(1.02) !important;
+}
+
+input[type="reset"],
+#customFORM {
+    border: 3px ridge rgb(210, 40, 180) !important;
+    background-color: rgba(150, 40, 210, 0.8) !important;
+}
+
+input[type="reset"]:hover,
+#customFORM:hover {
+    background-color: rgb(210, 40, 180) !important;
+    border-color: #ffffff !important;
+    box-shadow: 0 0 10px rgba(210, 40, 180, 0.6) !important;
+    transform: scale(1.02) !important;
+}
+
+#Reviews {
+    font-size: 13px !important;
+    font-weight: bold !important;
+    color: #7df9ff !important;
+    text-align: center !important;
+    width: fit-content !important;
+    margin: 20px auto !important;
+    padding: 8px 20px !important;
+    background-color: rgba(30, 35, 45, 0.8) !important;
+    border: 2px dashed rgb(40, 180, 210) !important;
+    border-radius: 8px !important;
+}
+
+a[href="index.html"] {
+    border: 3px ridge rgb(174, 9, 124) !important;
+    background-color: rgba(150, 40, 210, 0.8) !important;
+}
+
+a[href="index.html"]:hover {
+    background-color: rgb(210, 40, 180) !important;
+    border-color: #ffffff !important;
+    box-shadow: 0 0 10px rgba(210, 40, 180, 0.6) !important;
+    transform: scale(1.02) !important;
+}
+
+/* =========================================
+   CUSTOM SECTIONS
+   ========================================= */
+#CustomTitle {
+    border: 8px ridge rgb(150, 40, 210) !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(30, 35, 45, 0.95);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#Custom2 {
+    font-size: 13px !important;
+    font-weight: bold !important;     
+    color: #7df9ff !important;
+    text-align: center !important;
+    padding: 0 5px !important;
+    margin: 0 15px !important;
+}
+
+#Custom {
+    border: 6px ridge rgb(210, 40, 180) !important;
+    border-radius: 12px !important;
+    font-size: 18px !important;
+    font-weight: bold !important;     
+    color: #ffffff !important;
+    padding: 8px 20px !important; 
+    width: fit-content !important;
+    margin: 15px auto !important;
+    text-align: center !important;
+    background-color: rgba(30, 35, 45, 0.95) !important;
+}
+
+#IMPORTANT {
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 8px 16px !important;
+    margin: 15px auto !important;
+    display: block !important;
+    width: fit-content !important;
+    border: 3px ridge rgb(210, 40, 180) !important;
+    border-radius: 6px !important;
+    text-align: center !important;
+    background-color: rgb(210, 40, 180) !important;
+    border-color: #ffffff !important;
+    box-shadow: 0 0 10px rgba(210, 40, 180, 0.6) !important;
+}

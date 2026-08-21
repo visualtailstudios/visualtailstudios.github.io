@@ -1,0 +1,101 @@
+
+   body, input, select, button, a, th, td, p, h1, h2, h3, h4, div {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+body {
+    background-color: #0d1117 !important;
+    background-image: 
+        linear-gradient(rgba(156, 171, 193, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(156, 171, 193, 0.05) 1px, transparent 1px) !important;
+    background-size: 20px 20px !important;
+    margin: 0 !important;
+    padding: 20px !important; 
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    color: #e6edf3 !important; 
+}
+
+h1 {
+    font-size: 28px !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+    text-shadow: 0 0 10px rgba(210, 40, 180, 0.5) !important;
+}
+
+body > div {
+    width: 100% !important;
+    max-width: 900px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 16px !important;
+    justify-content: center !important;
+    margin-top: 15px !important;
+}
+
+body > div > br, 
+body > div > hr {
+    display: none !important;
+}
+
+body > div > div:nth-of-type(1) {
+    width: 100% !important;
+    background-color: rgba(30, 35, 45, 0.95) !important;
+    border: 6px ridge rgb(210, 40, 180) !important;
+    border-radius: 14px !important;
+    padding: 24px !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+body > div > div:nth-of-type(n+2) {
+    width: calc(50% - 10px) !important;
+    min-width: 280px !important;
+    background-color: rgba(30, 35, 45, 0.9) !important;
+    border: 4px ridge rgb(150, 40, 210) !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+h2, h3, h4 {
+    color: #7df9ff !important;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+}
+
+h2 { font-size: 20px !important; }
+h3 { font-size: 18px !important; }
+h4 { font-size: 16px !important; }
+
+p, div {
+    font-size: 12px !important;
+    line-height: 1.5 !important;
+    color: #e6edf3 !important;
+}
+
+a {
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 8px 14px !important;
+    margin: 10px 0 8px 0 !important;
+    display: inline-block !important;
+    border: 3px ridge rgb(174, 9, 124) !important;
+    border-radius: 6px !important;
+    background-color: rgba(150, 40, 210, 0.8) !important;
+    transition: all 0.1s ease !important;
+    text-align: center !important;
+}
+
+a:hover {
+    background-color: rgb(210, 40, 180) !important;
+    border-color: #ffffff !important;
+    box-shadow: 0 0 10px rgba(210, 40, 180, 0.6) !important;
+    transform: scale(1.02) !important;
+}
