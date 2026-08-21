@@ -1,6 +1,4 @@
-/* =========================================
-   GLOBAL RESET & EFFICIENCY
-   ========================================= */
+
    body, input, select, button, a, th, td, p, h1, h2, h3, h4, div, span {
     font-family: 'Courier New', Courier, monospace !important;
 }
@@ -14,10 +12,6 @@
     list-style-type: none !important;
     padding: 0 !important;
 }
-
-/* =========================================
-   LAYOUT & BACKGROUND
-   ========================================= */
 body {
     background-color: #0d1117 !important;
     background-image: 
