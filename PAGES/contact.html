@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <main class="contact-container">
+        <h1>Contact Me</h1>
+
+        <form
+            class="contact-form"
+            action="https://api.web3forms.com/submit"
+            method="POST"
+        >
+            <input type="hidden" name="access_key" value="d15d01bc-2435-4b66-b8d9-bdee8bb4c3fc">
+            <input type="hidden" name="redirect" value="https://visualtailstudios.github.io">
+
+            <fieldset>
+                <legend>Your information</legend>
+
+                <div class="form-field">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="First Name" required placeholder="Nicole">
+                </div>
+
+                <div class="form-field">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="Last Name" required placeholder="O'Neal">
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="Email" required placeholder="violetmantel32@gmail.com">
+                </div>
+
+                <div class="form-field">
+                    <label for="number">Number:</label>
+                    <input type="tel" id="number" name="Phone Number" required placeholder="832-370-8326">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Meeting and message</legend>
+
+                <div class="form-field">
+                    <label for="schedule">Schedule a meeting:</label>
+                    <input type="text" id="schedule" name="Meeting Date" required placeholder="Monday at 8am">
+                </div>
+
+                <div class="form-field">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="Message" required placeholder="I need a service built."></textarea>
+                </div>
+            </fieldset>
+
+            <div class="form-actions">
+                <button type="submit">Submit Application</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="../JAVASCRIPT/script.js"></script>
+</body>
+</html>

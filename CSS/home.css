@@ -1,0 +1,72 @@
+.hero-icon{
+    display: flex;
+    width: 64px;
+    margin: 0 auto;
+}
+
+.home{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.src{
+    font-size: 14px;
+}
+.br{
+    font-size: 17px;
+}
+
+.ethos {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /*min-height: 70vh;*/
+}
+
+.ethos-text {
+    margin-bottom: -40px;
+}
+
+.ethos-text,
+.desc {
+    text-align: left;
+    padding-left: 66px
+}
+
+.ethos-text{
+    font-size:40px;
+    font-weight: bold;
+}
+
+.desc{
+    font-size: 18px;
+}
+
+#match {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.watch{
+    margin-left: 200px;
+    margin-top: -120px;
+}
+
+
+.fx{
+    display: flex;
+}
+
+.stand{
+    margin-left: 40px;
+}
+
+#stud{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.intro{
+    min-height: 60vh;
+}

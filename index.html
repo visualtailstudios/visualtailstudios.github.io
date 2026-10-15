@@ -1,189 +1,82 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Visual Tail | Software Company</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/home.css">
+</head>
     <body>
-        <!--Header body-->
-        <div id="headerContainer">
-        <h1 id="titleText">Visual Tail Studios</h1>
-        <h3 id="subtitleText">The source for software needs</h3>
-        
+        <div id="navbar"></div>
 
-        <p id="VERIFY">apple-domain-verification=gFTQ9uPHH6FT5OVA</p>
-        
-        <!--schedule-->
-        <div>
-            <table>
-                <tr>
-                    <th id="scheduleType">Sunday</th>
-                    <th id="scheduleType">Monday</th>
-                    <th id="scheduleType">Tuesday</th>
-                    <th id="scheduleType">Wednesday</th>
-                    <th id="scheduleType">Thursday</th>
-                    <th id="scheduleType">Friday</th>
-                    <th id="scheduleType">Saturday</th>
-                </tr>
-                <tr>
-                    <td id="scheduleType">Closed</td>
-                    <td id="scheduleType">8AM to 9PM</td>
-                    <td id="scheduleType">8AM to 9PM</td>
-                    <td id="scheduleType">2:35PM to 9PM</td>
-                    <td id="scheduleType">8AM to 2:35PM</td>
-                    <td id="scheduleType">8AM to 9PM</td>
-                    <td id="scheduleType">Varies by week</td>
-                </tr>
-            </table>
-        </div>
+       <section class="home">
+            <div>
+                <img class="hero-icon" src="IMAGES/icon.png">
+            </div>
+            <div id="hero">
+                <h1>VisualTail Studio</h1>
+                <p class="src">The source for software needs.</p>
+                <p class="br">Make it yourself. Make it better.</p>
+            </div>
+       </section>
 
-    </div>
-
-        <!--About section-->
-        <br>
-        <div>
-            <h2 id="aboutSec">About the Studio</h2>
-            
-            <!--Moniker-->
-            <div id="motto">
-                I'm a self-taught C# and Linux Operating
-                Systems developer. I wanted an Apple Watch
-                to work, but Apple's secturity is unbreakable.
-                So I'm putting it on my desk, and I am hand-
-                coding software until my business makes enough
-                to buy a working one. I am hand coding the best
-                and most secure services so you never have to
-                worry. If you need custom software built by
-                someone who doesn't give up, hire me.
-                I'm Charlie Tail and I can give you what you want.
+       <section class="ethos">
+        <div class="fx">
+        <div class="sect">
+            <div class="ethos-text">
+                <p>I build things that<br>I believe should exist.</p>
             </div>
-            <br>
-            <div>
-                <p>My core usages include:</p>
-
-                <ul id="usageList">
-                    <li>> C# Applications / Services</li>
-                    <li>> HTML, CSS, Javascript Elements</li>
-                    <li>> Python Applications / Services</li>
-                    <li>> Assembly Services</li>
-                    <li>> iOS, Android, Desktop Applications</li>
-                    <li>> Aiding and Advice</li>
-                    <li>> Fixing, Improving, Contributing to Services</li>
-                    <li>> Teaching using my Courses</li>
-                    <li>> Roblox Studio services</li>
-                </ul>
-                <p>My modes of compensation include:</p>
-                <ul id="compensationList">
-                    <li>> Free advertisement of my services</li>
-                    <li>> One time commision fee</li>
-                    <li>> Percentage of revenue from my services</li>
-                </ul>
-                <p>Other options can be discussed.</p>
-            </div>
-        </div>
-
-        <!--Course / Repos directories-->
-        <div>
-            <h2>Courses / Repositories</h2>
-            <div>
-                <a href="courses.html">
-                    My Courses
-                </a>
-                <br>
-                <a href="repo.html">
-                    My Repositories
-                </a>
-            </div>
-            <h4>About my Courses</h4>
-            <div>
-                My courses are always updating and constantly
-                being made better. And with new lessons are 
-                posted every single Saturday. If you see any
-                courses you would like posted that I do not
-                have up, use my contact form and I'll get back
-                to you as soon as I am able. 
-            </div>
-            <h4>About my Repositories</h4>
-            <div>
-                While you can always go to my GitHub page,
-                any public repositories I push will still
-                be uploaded with pictures of usages and
-                reviews for your consideration. Repositories
-                which are made private are under the 
-                discretion of the clients who requested it.
-                I will not share source code or any assets
-                unless given permission to advertise the repo. 
-            </div>
-        </div>
-
-        <!--Contact form-->
-        <br>
-        <div id="contactForm">
-            <h3>Contact Me</h3>
-        <form action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="d15d01bc-2435-4b66-b8d9-bdee8bb4c3fc">
-            <input type="hidden" name="redirect" value="https://visualtailstudios.github.io">
-            <div>
-                <label for="fname">First Name: </label>
-                <input type="text" id="fname" name="First Name" required placeholder="Nicole">
-            </div>
-            <div>
-                <label for="lname">Last Name: </label>
-                <input type="text" id="lname" name="Last Name" required placeholder="O'Neal">
-            </div>
-            <br>
-            <div>
-                <label for="email">Email: </label>
-                <input type="email" id="email" name="Email" required placeholder="violetmantel32@gmail.com">
-            </div>
-            <div>
-                <label for="number">Number: </label>
-                <input type="tel" id="number" name="Phone Number" required placeholder="832-370-8326">
-            </div>
-            <div>
-                <div>
-                    <label for="schedule">Schedule a meeting: </label>
-                </div>
-                <div>
-                    <input type="text" id="schedule" name="Meeting Date" required placeholder="Monday at 8am">
+            <div class="desc">
+                <div id="match">
+                    <p>
+                        I'm a self-taught C# and <br>Linux Operating Systems developer. <br>
+                        I wanted an Apple Watch to work, <br>but Apple's security is unbreakable.<br>
+                        So I'm putting it on my desk, <br>and I am hand-coding software until <br>my business makes enough to buy a working one.<br>
+                        I am hand coding the best and most <br>secure services so you never have to worry.<br>
+                        If you need custom software built <br>by someone who doesn't give up, hire me.<br>
+                        I'm Charlie Tail and I can give you what you want.
+                    </p>
+                    <div class="watch">
+                        <img src="../IMAGES/watch.png">
+                    </div>
                 </div>
             </div>
-            <div>
-                <label for="message">Message: </label>
-                <input type="text" id="message" name="Message" required placeholder="I need a service built.">
-            </div>
-            <br>
-            <div>
-                <input type="reset">
-                <input type="submit" value="Submit Application">
-            </div>
-        </form>
         </div>
-
-        <div id="SOCIAL_DIV">
-
-            <h3>SOCIALS / PUBLIC SPACES</h3>
-            <a href="Z_FILES/Company Policies.pdf">
-                Company Policy
-            </a>
-            <br>
-            <a href="https://www.tiktok.com/@visualtailstudios?_r=1&_t=ZP-98VM5ijiNN1">
-                TikTok
-            </a>
-            <br>
-            <a href="https://www.youtube.com/@visualtailstudios">
-                YouTube
-            </a>
-            <br>
-            <a href="https://github.com/visualtailstudios">
-                GitHub
-            </a>
-            <br>
-            <a href="https://cash.app/$visualtailstudios">
-                CashApp
-            </a>
-
+        <div class="stand">
+            <p id="stud">
+                What VisualTail Studio stands for:
+            </p>
+            <p id="lis">
+                - Products first. Build and sell real products that people can use.<br>
+                - Make it yourself. Don't wait for someone else to create what you need.<br>
+                - Make it better. Improve on what's already available instead of settling.<br>
+                - Persistence. Keep building, learning, and coding <br>even when resources are limited.<br>
+                - Security and honesty. Build trustworthy software and be honest about <br>what it can do.<br>
+                - Long-term value. Prioritize lasting usefulness and customer trust over quick money.<br>
+                - Independence. Build your own software, operating systems, and eventually hardware.<br>
+            </p>
         </div>
+        </div>
+       </section>
+       <!--
+       <section class="intro">
+            <h2>About Us</h2>
+            <p>
+                We here at VisualTail believe in making products for the people.<br>
+                Spanning open-source software, to full operating systems, and physical products.<br>
+                Constantly creating and improving our items and listening to you, the people.
+            </p>
+            <p>
+                The NeoEco Package constists ofall physical products and software under the<br>
+                Neo model. Each uses the N chip and a proprietary open-source operating system.
+            </p>
+            <h2>NeoEco Package</h2>
+       </section>
+       -->
+
+
+       <script src="JAVASCRIPT/script.js"></script>
     </body>
 </html>

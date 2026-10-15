@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal | VisualTail Studio</title>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+
+    <style>
+        .legal-container {
+            width: 90%;
+            max-width: 850px;
+            margin: 50px auto;
+        }
+
+        .legal-container > p {
+            margin-bottom: 30px;
+        }
+
+        .legal-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .legal-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .legal-icon {
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+        }
+
+        .legal-item-content {
+            flex: 1;
+        }
+
+        .legal-item h2 {
+            font-size: 1rem;
+            margin: 0 0 5px;
+        }
+
+        .legal-item p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        .legal-arrow {
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+        }
+
+        .legal-footer {
+            margin-top: 25px;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navbar"></div>
+
+    <main class="legal-container">
+        <h1>Legal</h1>
+        <p>Policies and agreements for VisualTail Studio.</p>
+
+        <section class="legal-list">
+
+            <a class="legal-item" href="../SRC/PrivacyPolicy.pdf">
+                <svg class="legal-icon" viewBox="0 0 24 24"
+                     fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round"
+                     stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11z"/>
+                    <path d="m9 12 2 2 4-4"/>
+                </svg>
+                <div class="legal-item-content">
+                    <h2>Privacy Policy</h2>
+                    <p>How we handle personal information.</p>
+                </div>
+                <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="legal-item" href="../SRC/CompanyPolicies.pdf">
+                <svg class="legal-icon" viewBox="0 0 24 24"
+                     fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round"
+                     stroke-linejoin="round">
+                    <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z"/>
+                    <path d="M14 2v6h6"/>
+                    <path d="M8 13h8"/>
+                    <path d="M8 17h8"/>
+                    <path d="M8 9h2"/>
+                </svg>
+                <div class="legal-item-content">
+                    <h2>Company Policy</h2>
+                    <p>Our company policies and principles.</p>
+                </div>
+                <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="legal-item" href="../SRC/TermsOfService.pdf">
+                <svg class="legal-icon" viewBox="0 0 24 24"
+                     fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round"
+                     stroke-linejoin="round">
+                    <path d="m16 16 3-8 3 8c-2 2-4 2-6 0"/>
+                    <path d="m2 16 3-8 3 8c-2 2-4 2-6 0"/>
+                    <path d="M7 21h10"/>
+                    <path d="M12 3v18"/>
+                    <path d="M3 7h2c2 0 5-1 7-3 2 2 5 3 7 3h2"/>
+                </svg>
+                <div class="legal-item-content">
+                    <h2>Terms of Service</h2>
+                    <p>Rules for using our website and services.</p>
+                </div>
+                <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="legal-item" href="../SRC/SoftwareLicense.pdf">
+                <svg class="legal-icon" viewBox="0 0 24 24"
+                     fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round"
+                     stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"/>
+                    <polyline points="8 6 2 12 8 18"/>
+                    <line x1="14" y1="4" x2="10" y2="20"/>
+                </svg>
+                <div class="legal-item-content">
+                    <h2>Software License Agreement</h2>
+                    <p>Terms for using our software.</p>
+                </div>
+                <span aria-hidden="true">↗</span>
+            </a>
+
+        </section>
+
+        <footer class="legal-footer">
+            <p>VisualTail Studio</p>
+        </footer>
+    </main>
+
+    <script src="../JAVASCRIPT/script.js"></script>
+
+</body>
+</html>
