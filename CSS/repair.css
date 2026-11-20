@@ -1,0 +1,72 @@
+.hero-icon{
+    display: flex;
+    width: 64px;
+    margin: 0 auto;
+}
+
+.home{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.src{
+    font-size: 14px;
+}
+
+
+
+
+
+.other_device #other-button img{
+    width: 200px;
+}
+.home_device #home-button img{
+    width: 360px;
+}
+.home_device #home-button img,
+.other_device #other-button img{
+    cursor: pointer;
+}
+
+button{
+  appearance: none;
+  background: transparent;
+  border: 0;
+}
+
+.home_device,
+.other_device{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#other-button {
+    position: relative;
+  }
+
+  #other-button.fly-left {
+    animation: flyLeft 1.2s cubic-bezier(.4, 0, 1, 1) forwards;
+  }
+
+  @keyframes flyLeft {
+    0%   { transform: translateX(0) rotate(0); }
+    10%  { transform: translateX(-80px) rotate(-8deg); }
+    50%  { transform: translateX(-40vw) rotate(-12deg); }
+    100% { transform: translateX(-110vw) rotate(-16deg); }
+}
+
+#home-button {
+    position: relative;
+  }
+
+  #home-button.fly-right {
+    animation: flyRight 1.2s cubic-bezier(.4, 0, 1, 1) forwards;
+  }
+
+  @keyframes flyRight {
+    0%   { transform: translateX(0) rotate(0); }
+    10%  { transform: translateX(80px) rotate(8deg); }
+    50%  { transform: translateX(40vw) rotate(12deg); }
+    100% { transform: translateX(110vw) rotate(16deg); }
+}

@@ -15,7 +15,9 @@ body{
     margin: 0;
 }
 
-
+.part{
+    display:inline-flex;
+}
 
 .global nav{
     z-index: 1000;
@@ -74,7 +76,7 @@ body{
 }
 
 .global nav #app-button img {
-    width: 25px !important;
+    width: 24px;
 }
 
 .global nav #app-button{

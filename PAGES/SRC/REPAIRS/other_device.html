@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Manager</title>
+
+    <link rel="stylesheet" href="CSS/other_device.css">
+</head>
+<body>
+    <div>
+            <h4 id="FormTitle">We need some information to continue:</h4>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="ac0a9d2b-c8be-42a8-be40-44bbeaf4e7a4">
+            <input type="hidden" name="redirect" value="https://visualtailstudios.github.io">
+            <div id="Name">
+                <label for="fname">Full Name: </label>
+                <input type="text" id="fname" name="Full Name" required placeholder="Nicole O'Neal">
+            </div>
+            <div id="Number">
+                <label for="number">Phone Number: </label>
+                <input type="tel" id="number" name="Phone Number" required placeholder="832-370-8326">
+            </div>
+            <div id="Email">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="Email" required placeholder="violetmantel32@gmail.com">
+            </div>
+            <div>
+            <input type="hidden" name="Selected Device" value="NOT OURS!">
+            <label id="PricingLabel">Which Device?</label>
+            <br>
+            <select id="OptionPrice" name="Brand">
+                <option id="Value0" value="Apple">APPLE</option>
+                <option id="Value1" value="Samsung">SAMSUNG</option>
+                <option id="Value2" value="Google">GOOGLE</option>
+                <option id="Value3" value="Multiple">MULTIPLE</option>
+            </select>
+            <br>
+            <select id="OptionPrice" name="APPLE / SERVICE COST">
+
+                <option id="Value0" value="DIDNT SELECT">iPhone Devices</option>
+
+                <option id="Value11" value="13 - $5">iPhone 13</option>
+                <option id="Value12" value="13 mini - $5">iPhone 13 mini</option>
+                <option id="Value13" value="13 Pro - $10">iPhone 13 Pro</option>
+                <option id="Value14" value="13 Pro Max - $15">iPhone 13 Pro Max</option>
+
+                <option id="Value21" value="14 - $5">iPhone 14</option>
+                <option id="Value22" value="14 Plus - $7">iPhone 13 Plus</option>
+                <option id="Value23" value="14 Pro - $10">iPhone 13 Pro</option>
+                <option id="Value24" value="14 Pro Max - $15">iPhone 13 Pro Max</option>
+
+                <option id="Value31" value="15 - $10">iPhone 15</option>
+                <option id="Value32" value="15 Plus - $15">iPhone 15 Plus</option>
+                <option id="Value33" value="15 Pro - $20">iPhone 15 Pro</option>
+                <option id="Value34" value="15 Pro Max - $25">iPhone 15 Pro Max</option>
+
+                <option id="Value41" value="16 - $20">iPhone 16</option>
+                <option id="Value42" value="16 E - $15">iPhone 16e</option>
+                <option id="Value43" value="16 Plus - $25">iPhone 16 Plus</option>
+                <option id="Value44" value="16 Pro - $30">iPhone 16 Pro</option>
+                <option id="Value45" value="16 Pro Max - $35">iPhone 16 Pro Max</option>
+
+                <option id="Value51" value="17 - $30">iPhone 17</option>
+                <option id="Value42" value="17 E - $20">iPhone 17e</option>
+                <option id="Value53" value="17 Pro - $40">iPhone 17 Pro</option>
+                <option id="Value54" value="17 Pro Max - $45">iPhone 17 Pro Max</option>
+
+                <option id="Value61" value="18 Pro - $45">iPhone 18 Pro</option>
+                <option id="Value62" value="18 Pro Max - $50">iPhone 18 Pro Max</option>
+
+                <option id="Value01" value="Air - $25">iPhone Air</option>
+                 <option id="Value02" value="Duo - $200">iPhone Duo</option>
+            
+            </select>
+            <select id="OptionPrice" name="SAMSUNG / SERVICE COST">
+                <option id="Value0" value="DIDNT SELECT">Samsung Devices</option>
+
+                <option id="Value11" value="21 - $5">Galaxy S21</option>
+                <option id="Value12" value="21 FE - $5">Galaxy S21 FE</option>
+                <option id="Value13" value="21 Plus - $10">Galaxy S21 Plus</option>
+                <option id="Value14" value="21 Ultra - $15">Galaxy S21 Ultra</option>
+
+                <option id="Value11" value="22 - $5">Galaxy S22</option>
+                <option id="Value12" value="22 FE - $5">Galaxy S22 FE</option>
+                <option id="Value13" value="22 Plus - $10">Galaxy S22 Plus</option>
+                <option id="Value14" value="22 Ultra- $15">Galaxy S22 Ultra</option>
+
+                <option id="Value11" value="23 - $5">Galaxy S23</option>
+                <option id="Value12" value="23 FE - $5">Galaxy S23 FE</option>
+                <option id="Value13" value="23 Plus - $10">Galaxy S23 Plus</option>
+                <option id="Value14" value="23 Ultra - $15">Galaxy S23 Ultra</option>
+
+                <option id="Value11" value="24 - $5">Galaxy S24</option>
+                <option id="Value12" value="24 FE - $5">Galaxy S24 FE</option>
+                <option id="Value13" value="24 Plus - $10">Galaxy S24 Plus</option>
+                <option id="Value14" value="24 Ultra - $15">Galaxy S24 Ultra</option>
+
+                <option id="Value11" value="25 - $10">Galaxy S25</option>
+                <option id="Value12" value="25 FE - $10">Galaxy S25 FE</option>
+                <option id="Value13" value="25 Plus - $15">Galaxy S25 Plus</option>
+                <option id="Value12" value="25 Edge - $20">Galaxy S25 Edge</option>
+                <option id="Value14" value="25 Ultra- $25">Galaxy S25 Ultra</option>
+
+                <option id="Value11" value="26 - $30">Galaxy S26</option>
+                <option id="Value12" value="26 FE - $30">Galaxy S26 FE</option>
+                <option id="Value13" value="26 Plus - $35">Galaxy S26 Plus</option>
+                <option id="Value14" value="26 Ultra - $45">Galaxy S26 Ultra</option>
+
+                <option id="Value12" value="Flip - $100">Galaxy Z Flip (Any Model)</option>
+                <option id="Value12" value="Fold - $150">Galaxy Z Fold (Any Model)</option>
+            </select>
+            <select id="OptionPrice" name="GOOGLE / SERVICE COST">
+                <option id="Value0" value="DIDNT SELECT">Google Devices</option>
+
+                <option id="Value11" value="Pixel 6 - $5">Pixel 6</option>
+                <option id="Value12" value="Pixel 6a - $5">Pixel 6a</option>
+                <option id="Value13" value="Pixel 6 Pro - $10">Pixel 6 Pro</option>
+
+                <option id="Value11" value="Pixel 7 - $5">Pixel 7</option>
+                <option id="Value12" value="Pixel 7a - $5">Pixel 7a</option>
+                <option id="Value13" value="Pixel 7 Pro - $10">Pixel 7 Pro</option>
+
+                <option id="Value11" value="Pixel 8 - $5">Pixel 8</option>
+                <option id="Value12" value="Pixel 8a - $5">Pixel 8a</option>
+                <option id="Value13" value="Pixel 8 Pro - $10">Pixel 8 Pro</option>
+
+                <option id="Value11" value="Pixel 9 - $10">Pixel 9</option>
+                <option id="Value12" value="Pixel 9a - $10">Pixel 9a</option>
+                <option id="Value13" value="Pixel 9 Pro - $15">Pixel 9 Pro</option>
+                <option id="Value13" value="Pixel 9 Pro XL - $20">Pixel 9 Pro XL</option>
+
+                <option id="Value11" value="Pixel 10 - $20">Pixel 10</option>
+                <option id="Value12" value="Pixel 10a - $20">Pixel 10a</option>
+                <option id="Value13" value="Pixel 10 Pro - $30">Pixel 10 Pro</option>
+                <option id="Value13" value="Pixel 10 Pro XL - $40">Pixel 10 Pro XL</option>
+
+                <option id="Value11" value="Pixel 11 - $30">Pixel 11</option>
+                <option id="Value13" value="Pixel 11 Pro - $35">Pixel 11 Pro</option>
+                <option id="Value13" value="Pixel 11 Pro XL - $45">Pixel 11 Pro XL</option>
+
+                <option id="Value12" value="Fold - $125">Pixel Fold (Any Model)</option>
+            </select>
+            
+            <br>
+            <label for="message">Service Type:</label>
+            <textarea id="message" name="Service" required placeholder="I need a screen replaced."></textarea>
+        </div>
+            <br>
+            <div>
+                <input type="reset">
+                <input type="submit" value="Submit Application">
+                
+            </div>
+            </form>
+        </div>
+
+        <button onclick="window.location.href='../../../index.html'">Return</button>
+</body>
+</html>
